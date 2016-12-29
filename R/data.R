@@ -1,0 +1,26 @@
+
+
+#' @title A simulated mega-dataset for illustrating the adaptive signature design (ASD) based on simulated datasets
+#'
+#' @description A dataset containing the survival times, censoring status, biomarkers and indicators for learn/confirm allocations.
+#' This dataset is used as an example to illustrate how to perform a simulation study for evaluating key parameters in an adaptive
+#' signature design (ASD).
+#'
+#' @usage data(data.simASD)
+#'
+#' @format A data frame with 70,000 rows and 13 variables:
+#' \describe{
+#'   \item{dataset}{an index for the 100 simulated datasets, each consisting of 700 subjects}
+#'   \item{id}{unique subject IDs in each dataset}
+#'   \item{trt}{treatment arm indicator (0 = control; 1 = treatment)}
+#'   \item{y_duration}{survival time (in days)}
+#'   \item{y_censor}{censoring status (0 = censored; 1 = event)}
+#'   \item{x1-x3}{continuous biomarkers, generated from Uniform(0,1) distribution}
+#'   \item{ME_30_flag-ME_70_flag}{indicator (0/1) for learn/confirm allocations: column name "30" means 30\% of subjects are
+#'   in the learn stage, while 70\% are in the confirm stage}
+#' }
+#'
+#' @source Results from an internal simulator at Eli Lilly and Company. The dataset is identical to the one used in the manuscript,
+#' scenario: n=700, p=3, the strongest predictive biomarker effect.
+#'
+"data.simASD"
