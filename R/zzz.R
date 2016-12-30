@@ -1,7 +1,8 @@
 
 
-.onAttach <- function(libname, pkgname) {
 
+.onAttach = function(libname, pkgname) {
+  
   packageStartupMessage("\n Welcome to simASD, an R package for performing a simple two-stage adaptive signature design (ASD) based on simulated datasets.")
 
   # suppress loading package messages
