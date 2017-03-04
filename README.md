@@ -1,17 +1,4 @@
----
-title: "Vignette for R Package 'simASD'"
-author: "Gu Mi <neo.migu@gmail.com>"
-date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{Vignette for R Package 'simASD'}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
-```
+# Vignette for R Package 'simASD'
 
 In this vignette, we describe the use of the R package `simASD` for performing a simple two-stage adaptive signature design (ASD) based on simulated datasets. For the methodology discussions and more simulations, please refer to the manuscript by Gu Mi, titled **Enhancement of the Adaptive Signature Design for Learning and Confirming in a Single Pivotal Trial**.
 
