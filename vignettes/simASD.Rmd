@@ -13,7 +13,7 @@ vignette: >
 knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
 ```
 
-In this vignette, we describe the use of the R package `simASD` for performing a simple two-stage adaptive signature design (ASD) based on simulated datasets. For the methodology discussions and more simulations, please refer to the manuscript by Gu Mi and Jonnathan Denne, titled **Enhancement of the Adaptive Signature Design for Learning and Confirming in a Single Pivotal Trial**.
+In this vignette, we describe the use of the R package `simASD` for performing a simple two-stage adaptive signature design (ASD) based on simulated datasets. For the methodology discussions and more simulations, please refer to the manuscript by Gu Mi, titled **Enhancement of the Adaptive Signature Design for Learning and Confirming in a Single Pivotal Trial**.
 
 ## Introduction
 
@@ -62,7 +62,7 @@ For simplicity, in this vignette we only included two $\alpha$ splits (0.025/0.0
 
 ## Resources
 
-* Manuscript: Mi G, Denne J. Enhancement of the Adaptive Signature Design for Learning and Confirming in a Single Pivotal Trial (under review).
+* Manuscript: Mi G. Enhancement of the Adaptive Signature Design for Learning and Confirming in a Single Pivotal Trial (under review).
 * Package development page including all source codes can be found at: https://github.com/gu-mi/simASD.
 * Questions? Comments? Please contact me at: neo.migu@gmail.com, or send a pull request at my GitHub page.
 
