@@ -49,7 +49,7 @@ For simplicity, in this vignette we only included two $\alpha$ splits (0.025/0.0
 
 ## Resources
 
-* Manuscript: Mi G. Enhancement of the Adaptive Signature Design for Learning and Confirming in a Single Pivotal Trial (under review).
+* **Mi, G**. (2017). [Enhancement of the Adaptive Signature Design for Learning and Confirming in a Single Pivotal Trial](http://onlinelibrary.wiley.com/doi/10.1002/pst.1811/full). Pharmaceutical Statistics.
 * Package development page including all source codes can be found at: https://github.com/gu-mi/simASD.
 * Questions? Comments? Please contact me at: neo.migu@gmail.com, or send a pull request at my GitHub page.
 
